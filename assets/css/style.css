@@ -1,0 +1,55 @@
+body {
+    background-color: #3E3F41;
+}
+.title{
+    color: #F6A800;
+}
+.fa-address-card {
+    color: #F6A800;
+    font-size: 7em;
+}
+header {
+    margin-top: 5em;
+}
+#btnIngreso{
+    width: 18em;
+    background-color: #F6A800;
+}
+.img {
+    width: 60%;
+}
+.formulario  button{
+  width: 40%;
+}
+
+.bip {
+    display: none;
+}
+.barra {
+    display: none;
+}
+
+/* media query */
+
+@media screen and (min-width: 500px) {
+    .img {
+       width: 40% !important;
+    }
+    .formulario  input{
+        text-align: center;
+        
+
+      }
+
+}
+@media screen and (min-width: 1000px) {
+    .img {
+       width: 20% !important;
+    }
+    .formulario  input{
+        text-align: center;
+        /* width: 20em; */
+
+      }
+
+}
